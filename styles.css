@@ -1,10 +1,5 @@
 /* Class Selector */
 
-#green {
-  font-size: 30px;
-  color: black;
-}
-
 .green {
   color: green;
 }
@@ -14,6 +9,7 @@
   background-color: saddlebrown;
 }
 
-.lowercase {
-  text-transform: lowercase;
+.uppercase {
+  color: black;
+  text-transform: uppercase;
 }
