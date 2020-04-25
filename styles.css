@@ -1,11 +1,10 @@
-/* ID Selector */
+/* Class Selector */
 
-#title {
-  color: red;
-  background-color: sienna;
+.green {
+  color: green;
 }
 
-#subheading {
-  color: aqua;
-  background-color: blue;
+.red {
+  color: red;
+  background-color: saddlebrown;
 }
