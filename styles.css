@@ -1,10 +1,11 @@
-/* Element Grouping */
-h1,
-h2 {
-  color: crimson;
-  font-size: 3rem;
+/* ID Selector */
+
+#title {
+  color: red;
+  background-color: sienna;
 }
-body {
-  color: blue;
-  font-size: 2rem;
+
+#subheading {
+  color: aqua;
+  background-color: blue;
 }
