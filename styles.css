@@ -1,5 +1,10 @@
 /* Class Selector */
 
+#green {
+  font-size: 30px;
+  color: black;
+}
+
 .green {
   color: green;
 }
@@ -7,4 +12,8 @@
 .red {
   color: red;
   background-color: saddlebrown;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
