@@ -1,5 +1,5 @@
 /* CSS Colors */
-/* RGB values */
+/* RGBA values */
 
 #first {
   color: rgb(255, 0, 0);
@@ -16,6 +16,11 @@
   background-color: rgb(100, 100, 100);
 }
 
+#four {
+  color: rgb(10, 10, 255);
+  background-color: rgb(100, 0, 25);
+}
+
 body {
-  background: rgb(255, 251, 2);
+  background: rgba(255, 251, 2, 0.45);
 }
