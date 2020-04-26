@@ -1,12 +1,21 @@
 /* CSS Colors */
-/* Color Names - 140 */
+/* RGB values */
 
 #first {
-  color: brown;
-  background-color: coral;
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 #second {
-  color: blue;
-  background: chocolate;
+  color: rgb(0, 255, 0);
+  background: rgb(0, 0, 0);
+}
+
+#third {
+  color: rgb(0, 0, 255);
+  background-color: rgb(100, 100, 100);
+}
+
+body {
+  background: rgb(255, 251, 2);
 }
