@@ -1,26 +1,33 @@
 /* CSS Colors */
-/* RGBA values */
+/* 
+  HSL values
+  HEX values
+  A(10) B(11) C(12) D(13) E(14) F(15)
+  #ff0000 - Red
+  #00ff00 - Green
+  #0000ff - Blue
+*/
 
 #first {
-  color: rgb(255, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: #ff0000;
+  background-color: #000;
 }
 
 #second {
-  color: rgb(0, 255, 0);
-  background: rgb(0, 0, 0);
+  color: #00ff00;
+  background: #fff;
 }
 
 #third {
-  color: rgb(0, 0, 255);
-  background-color: rgb(100, 100, 100);
+  color: #0000ff;
+  background-color: #f15025;
 }
 
 #four {
-  color: rgb(10, 10, 255);
-  background-color: rgb(100, 0, 25);
+  color: #f10000;
+  background-color: #ff9999;
 }
 
 body {
-  background: rgba(255, 251, 2, 0.45);
+  background: #f90000;
 }
