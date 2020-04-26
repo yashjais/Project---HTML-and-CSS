@@ -1,15 +1,12 @@
 /* CSS Colors */
+/* CSS Background Color */
 
-.green {
-  color: green;
+#first {
+  color: brown;
+  background-color: coral;
 }
 
-.red {
-  color: red;
-  background-color: saddlebrown;
-}
-
-.uppercase {
-  color: black;
-  text-transform: uppercase;
+#second {
+  color: blue;
+  background: chocolate;
 }
