@@ -1,33 +1,8 @@
-/* CSS Colors */
-/* 
-  HSL values
-  HEX values
-  A(10) B(11) C(12) D(13) E(14) F(15)
-  #ff0000 - Red
-  #00ff00 - Green
-  #0000ff - Blue
-*/
+/* font-size, width, height, pixels */
 
-#first {
-  color: #ff0000;
-  background-color: #000;
-}
-
-#second {
-  color: #00ff00;
-  background: #fff;
-}
-
-#third {
-  color: #0000ff;
-  background-color: #f15025;
-}
-
-#four {
-  color: #f10000;
-  background-color: #ff9999;
-}
-
-body {
-  background: #f90000;
+h2 {
+  font-size: 60px;
+  width: 400px;
+  height: 100px;
+  background: chocolate;
 }
