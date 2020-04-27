@@ -1,6 +1,21 @@
-/* defaul browser style */
+/*
+  calc()
+  perform Math operation + - / *
+  mix and match values
+*/
 
-h2 {
-  font-size: 32px;
-  color: red;
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: red;
+  height: 100px;
+  color: blue;
+  font-size: 40px;
+}
+
+.banner {
+  height: calc(100vh - 100px); /* use the operator carefully */
+  background: blue;
 }
