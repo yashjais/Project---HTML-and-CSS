@@ -1,20 +1,6 @@
-/* vh - height - percent of the screen
-vw - width - percent of the screen */
+/* defaul browser style */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  width: 50vh;
-  height: 50vh;
-  background: red;
-}
-
-.banner {
-  width: 100vh;
-  height: 100vh;
-  background: blue;
+h2 {
+  font-size: 32px;
+  color: red;
 }
