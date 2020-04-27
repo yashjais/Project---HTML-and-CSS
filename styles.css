@@ -1,17 +1,21 @@
 /* 
-  em - relative to its paremt
+  rem - relative to root
   1em - 16 px default browser style
   1em - base value
 */
 
+html {
+  font-size: 40px;
+}
+
 div {
-  font-size: 30px;
+  font-size: 780px;
 }
 /* here 1em = 30px */
 .relative {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .absolute {
-  font-size: 30px;
+  font-size: 80px;
 }
