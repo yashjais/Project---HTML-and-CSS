@@ -1,8 +1,13 @@
-/* font-size, width, height, pixels */
+/* Percent Values - Relative */
 
-h2 {
-  font-size: 60px;
-  width: 400px;
-  height: 100px;
-  background: chocolate;
+.outer {
+  width: 300px;
+  height: 300px;
+  background: blue;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: crimson;
 }
