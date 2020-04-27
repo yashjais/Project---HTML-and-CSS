@@ -1,21 +1,20 @@
-/* 
-  rem - relative to root
-  1em - 16 px default browser style
-  1em - base value
-*/
+/* vh - height - percent of the screen
+vw - width - percent of the screen */
 
-html {
-  font-size: 40px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div {
-  font-size: 780px;
-}
-/* here 1em = 30px */
-.relative {
-  font-size: 2rem;
+.header {
+  width: 50vh;
+  height: 50vh;
+  background: red;
 }
 
-.absolute {
-  font-size: 80px;
+.banner {
+  width: 100vh;
+  height: 100vh;
+  background: blue;
 }
