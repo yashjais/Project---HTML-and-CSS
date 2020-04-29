@@ -1,21 +1,7 @@
-/*
-  calc()
-  perform Math operation + - / *
-  mix and match values
-*/
-
-* {
-  margin: 0;
+body {
+  font-family: helvetica;
 }
 
-.navbar {
-  background: red;
-  height: 100px;
-  color: blue;
-  font-size: 40px;
-}
-
-.banner {
-  height: calc(100vh - 100px); /* use the operator carefully */
-  background: blue;
+h1 {
+  font-family: verdana;
 }
