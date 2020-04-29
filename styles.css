@@ -1,10 +1,10 @@
-/* font stack generic family 
-serif, sans-serif, cursive, fantasy, monospace */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Oswald&display=swap");
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Oswald", sans-serif;
 }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Condiment", cursive;
 }
