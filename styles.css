@@ -5,6 +5,20 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-h1 {
+.main {
   font-family: "Condiment", cursive;
+}
+
+.subheading {
+  font-family: "Condiment", cursive;
+  font-weight: lighter;
+}
+
+/* .one {
+  font-family: "Oswald", sans-serif;
+} 
+*/
+
+.two {
+  font-family: normal;
 }
