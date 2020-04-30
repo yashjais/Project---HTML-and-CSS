@@ -1,6 +1,18 @@
-/* Text Indent and Text Align */
+/* 
+  Line Height
+  Text Decoration
+  Text Transform
+  Word Spacing
+  Letter Spacing
+ */
 
 @import url("https://fonts.googleapis.com/css2?family=Condiment&family=Oswald&display=swap");
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
 
 body {
   font-family: "Oswald", sans-serif;
@@ -10,14 +22,17 @@ body {
   font-family: "Condiment", cursive;
 }
 
-.subheading {
-  text-align: center;
-}
-
 .one {
   text-indent: 50px;
+  line-height: 40px;
+  text-transform: capitalize;
 }
 
 .two {
   font-family: normal;
+  word-spacing: 40px;
+}
+
+.three {
+  letter-spacing: 0.5rem;
 }
