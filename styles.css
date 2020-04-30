@@ -1,4 +1,5 @@
-/* Google Fonts */
+/* Text Indent and Text Align */
+
 @import url("https://fonts.googleapis.com/css2?family=Condiment&family=Oswald&display=swap");
 
 body {
@@ -10,14 +11,12 @@ body {
 }
 
 .subheading {
-  font-family: "Condiment", cursive;
-  font-weight: lighter;
+  text-align: center;
 }
 
-/* .one {
-  font-family: "Oswald", sans-serif;
-} 
-*/
+.one {
+  text-indent: 50px;
+}
 
 .two {
   font-family: normal;
