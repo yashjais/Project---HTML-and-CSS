@@ -1,38 +1,16 @@
-/* 
-  Line Height
-  Text Decoration
-  Text Transform
-  Word Spacing
-  Letter Spacing
- */
+/* CSS Box Model */
 
-@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Oswald&display=swap");
-
-a {
-  font-size: 40px;
-  text-decoration: none;
-  color: black;
+h1 {
+  background: crimson;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }
 
-body {
-  font-family: "Oswald", sans-serif;
-}
-
-.main {
-  font-family: "Condiment", cursive;
-}
-
-.one {
-  text-indent: 50px;
-  line-height: 40px;
-  text-transform: capitalize;
-}
-
-.two {
-  font-family: normal;
-  word-spacing: 40px;
-}
-
-.three {
-  letter-spacing: 0.5rem;
+p {
+  background: blue;
+  /* padding: 40px; */
+  /* padding: 20px 40px; */
+  /* padding: 20px 10px 20px 10px; */
 }
