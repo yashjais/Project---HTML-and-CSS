@@ -1,18 +1,32 @@
-/* Horizontal Centering */
+/* 
+  Block: Top Bottom Margin Respected
+  Inline: Top Bottom Margin Not Respected
+  Mobile Navbar
+  list-style-type: property
+  descendent selectors
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.block {
-  width: 150px;
-  background: red;
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  background-color: blue;
   color: white;
-  /* margin-left: auto; */
-  margin: 10px auto;
-}
-
-.inline {
-  background: yellow;
-  color: green;
+  text-transform: capitalize;
+  display: block;
+  letter-spacing: 2px;
+  padding: 5px 5px;
+  margin: 10px;
 }
