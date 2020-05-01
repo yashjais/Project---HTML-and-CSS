@@ -1,20 +1,17 @@
 /* CSS Box Model */
 
-* {
-  margin: 0;
-}
-
 h1 {
   background: rgba(170, 151, 155, 1);
   /* padding-left: 30px;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 30px; */
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
+  margin-right: 20px; */
   border: 10px solid crimson;
+  border-radius: 20px;
 }
 
 p {
@@ -23,7 +20,10 @@ p {
   /* padding: 20px 40px; */
   /* padding: 20px 10px 20px 10px; */
   margin: 20px;
-  border-bottom-style: solid;
+  /* border-bottom-style: solid;
   border-bottom-color: crimson;
-  border-bottom-width: 10px;
+  border-bottom-width: 10px; */
+  border: 10px solid yellow;
+  border-radius: 50%;
+  margin-top: -100px;
 }
