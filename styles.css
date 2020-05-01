@@ -1,24 +1,12 @@
-/* CSS Box Model */
+/* CSS Display Properties */
 
-.buttons {
-  margin: 3rem;
+.block {
+  background: red;
+  color: white;
 }
 
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  background: tomato;
-  padding: 1.2rem 1.5rem;
-  color: #222222;
-  cursor: pointer;
-  margin: 0 20px;
-}
-
-#one {
-  border: 0.2rem solid #222222;
-}
-
-#two {
-  outline: 0.2rem solid #222222;
-  outline-offset: 10px;
+.inline {
+  background: yellow;
+  color: green;
+  display: block;
 }
