@@ -1,12 +1,18 @@
-/* CSS Display Properties */
+/* Horizontal Centering */
+
+body {
+  text-align: center;
+}
 
 .block {
+  width: 150px;
   background: red;
   color: white;
+  /* margin-left: auto; */
+  margin: 10px auto;
 }
 
 .inline {
   background: yellow;
   color: green;
-  display: block;
 }
