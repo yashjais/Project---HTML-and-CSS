@@ -1,0 +1,18 @@
+/* background Image */
+
+div {
+  color: crimson;
+  height: 400px;
+}
+
+.big {
+  background: url("./big.jpeg");
+}
+
+.small {
+  background: url("./small.jpeg");
+}
+
+.folder {
+  background: url("./img/folder-img.jpeg");
+}
