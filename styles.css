@@ -1,26 +1,28 @@
 /* gradient */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 div {
-  width: 150px;
-  height: 150px;
-  margin: 5px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: crimson;
 }
 
-.one {
-  background: linear-gradient(red, green);
+.header {
+  background: url("./big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-.two {
-  background: linear-gradient(to top, red, green);
-}
-.three {
-  background: linear-gradient(90deg, red, green);
-}
-.four {
-  background: linear-gradient(45deg, red, green);
-}
-.five {
-  background: linear-gradient(to top left, red, green);
-}
-.six {
-  background: linear-gradient(to bottom, red, green);
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./big.jpeg") center/cover fixed no-repeat;
 }
