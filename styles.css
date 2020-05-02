@@ -3,24 +3,30 @@
 
 div {
   color: crimson;
-  height: 400px;
+  height: 100vh;
 }
 
 .big {
   background: url("./big.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .small {
-  background: url("./small.jpeg");
+  background: url("img/folder-img.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-position: bottom;
-  background-position: 50% 100%;
+  background-attachment: fixed;
 }
 
 .folder {
-  background: url("./img/folder-img.jpeg");
-  background-size: contain; /* will keep the ratio of the image and cover up the div */
+  background: url("./big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
