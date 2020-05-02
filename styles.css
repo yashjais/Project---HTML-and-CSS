@@ -1,4 +1,4 @@
-/* background Image */
+/* background Size */
 
 div {
   color: crimson;
@@ -13,9 +13,10 @@ div {
 .small {
   background: url("./small.jpeg");
   background-repeat: no-repeat;
+  background-size: cover; /*will strech the image to the size of the div */
 }
 
 .folder {
   background: url("./img/folder-img.jpeg");
-  background-repeat: round;
+  background-size: contain; /* will keep the ratio of the image and cover up the div */
 }
