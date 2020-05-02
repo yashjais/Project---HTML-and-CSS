@@ -1,4 +1,5 @@
-/* background Size */
+/* last rule property */
+/* background Position */
 
 div {
   color: crimson;
@@ -8,12 +9,15 @@ div {
 .big {
   background: url("./big.jpeg");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .small {
   background: url("./small.jpeg");
   background-repeat: no-repeat;
-  background-size: cover; /*will strech the image to the size of the div */
+  background-position: center;
+  background-position: bottom;
+  background-position: 50% 100%;
 }
 
 .folder {
