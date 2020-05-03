@@ -1,34 +1,51 @@
-/* position fixed */
+/* Media Queries 
+Responsive Design
+Style Elements on Different Screen Sizes
+min-width: -- starting from 
+max-width: -- up to
+Mobile First */
 
-div {
+body {
   background: yellow;
-  border: solid 5px tomato;
-  padding: 10px;
-  position: relative;
 }
 
-button {
+.banner {
+  background: blue;
+}
+
+h1 {
   color: white;
-  background-color: red;
-  font-size: 40px;
-  position: fixed;
-  top: 0;
-  right: 0;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
-.one {
-  background: coral;
-}
+/* @media screen and (min-width: 570px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: crimson;
+  }
+  h1 {
+    color: coral;
+    text-align: right;
+    text-decoration: none;
+  }
+} */
 
-.two {
-  background: crimson;
-  /* position: relative; */
-}
+/* we can easily override max-width one so use it carefully, if we are gonna use two max-width */
 
-.special {
-  background: cyan;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+@media screen and (max-width: 570px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: crimson;
+  }
+  h1 {
+    color: coral;
+    text-align: right;
+    text-decoration: none;
+  }
 }
