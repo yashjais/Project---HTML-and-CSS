@@ -1,23 +1,25 @@
+/* position absolute */
+
 div {
   background: yellow;
   border: solid 5px tomato;
   padding: 10px;
-  position: absolute;
+  /* position: relative; */
 }
 
 .one {
   background: coral;
-  position: relative;
-  /* top: 10px;
-  right: 10px; */
-  bottom: 10px;
-  left: 10px;
 }
 
 .two {
   background: crimson;
+  /* position: relative; */
 }
 
 .special {
+  background: cyan;
+  font-size: 30px;
   position: absolute;
+  top: 50%;
+  left: 50%;
 }
