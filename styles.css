@@ -1,16 +1,22 @@
-.banner {
-  border: 5px solid crimson;
-  padding: 5px;
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
-img {
-  float: right;
-  margin-left: 20px;
+div {
+  width: 33.33%;
+  height: 250px;
+  float: left;
 }
 
-/* clear: if we want to - block level element to respect the new line rule */
-/* 
-p {
-  clear: both;
-} */
+.one {
+  background-color: crimson;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: green;
+}
