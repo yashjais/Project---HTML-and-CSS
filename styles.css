@@ -7,6 +7,11 @@ div {
 
 .one {
   background: coral;
+  position: relative;
+  /* top: 10px;
+  right: 10px; */
+  bottom: 10px;
+  left: 10px;
 }
 
 .two {
