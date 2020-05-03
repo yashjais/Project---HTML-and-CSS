@@ -1,10 +1,19 @@
-/* position absolute */
+/* position fixed */
 
 div {
   background: yellow;
   border: solid 5px tomato;
   padding: 10px;
-  /* position: relative; */
+  position: relative;
+}
+
+button {
+  color: white;
+  background-color: red;
+  font-size: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .one {
