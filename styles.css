@@ -1,0 +1,16 @@
+.banner {
+  border: 5px solid crimson;
+  padding: 5px;
+  overflow: hidden;
+}
+
+img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* clear: if we want to - block level element to respect the new line rule */
+/* 
+p {
+  clear: both;
+} */
