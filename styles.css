@@ -1,38 +1,62 @@
-/* z-index - z-axis
-position static - does not work */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
-  width: 100px;
-  height: 100px;
-  position: absolute;
+/* pseudo elements ::before ::after CONTENT not element 
+content:'' ---required
+img --- does not work */
+
+p::before {
+  content: "hello ";
+  font-size: 20px;
+  background: red;
+  display: block;
 }
 
-.banner {
-  margin: 20px;
-  width: 100vw;
-  height: 100vh;
-  border: 5px solid crimson;
+p::after {
+  content: " and it's done";
+  color: crimson;
+}
+
+/* with this cases where we will work with image, we are gonna have div as an parent element and we will first make the div responsive and then we will work on image */
+
+/* we can't work with pseudo elements with image that's why we add div */
+div {
+  width: 50vw;
+  margin: 100px auto;
+  border: 2px solid red;
   position: relative;
 }
 
-.one {
+img {
+  width: 100%;
+  display: block;
+}
+
+div::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 2px solid green;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+
+div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: grey;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
   top: 0;
   left: 0;
-  z-index: 0;
-}
-
-.two {
-  top: 010%;
-  left: 10%;
-  z-index: -1;
-}
-
-.three {
-  top: 20%;
-  left: 20%;
-  z-index: -2;
 }
