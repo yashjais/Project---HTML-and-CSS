@@ -1,32 +1,39 @@
 /* 
-  transition - change over time
-  transition property
-  transition duration
- */
+  how the transition takes place
+  transition-timing-function 
+  transition: all 3s here 2s
+  ease: default
+  ease: slow start, fast, slow end
+  linear: same speed start to end
+  ease in: slow start
+  ease out: slow end
+  ease in out: slow start, fast, slow end
+*/
 
 div {
-  height: 200px;
-  width: 200px;
-  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  margin: 10px;
+  transition: all 3s;
 }
 
-/* div:hover {
-  background-color: darkolivegreen;
-} */
+div:hover {
+  transform: translateX(100px);
+}
 
-.one {
-  background-color: chocolate;
+.ease {
+  transition-timing-function: ease;
 }
-.two {
-  background-color: coral;
-  /* transition-delay: 2s; */
+.linear {
+  transition-timing-function: linear;
 }
-.three {
-  background-color: crimson;
-  /* transition: border-radius 5s 1s, background 3s 2s; */
-  transition: all 5s 1s;
+.ease-in {
+  transition-timing-function: ease-in;
 }
-.three:hover {
-  border-radius: 50%;
-  background: blueviolet;
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
