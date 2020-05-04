@@ -1,18 +1,20 @@
-/* CSS Variables */
+/* transform */
 
-:root {
+div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+.one {
   background-color: chocolate;
-  font-size: 20px;
+  transform: translate(20px, 30px);
 }
-
-h1 {
-  font-size: 3rem;
+.two {
+  background-color: coral;
+  transform: translate(-2rem);
 }
-
-.absolute {
-  font-size: 20px;
-}
-
-.resonsive {
-  font-size: 1.5rem;
+.three {
+  background-color: crimson;
+  transform: translateX(50%);
 }
