@@ -8,35 +8,31 @@ div {
   margin: 10px;
 }
 
-.transition {
-  background: crimson;
-  transition: all 2s linear;
-}
-
-.transition:hover {
-  background: yellow;
-  transform: translateX(100px);
-}
-
 .animation {
-  background: darkkhaki;
+  background: crimson;
   /* animation-name: ani;
   animation-duration: 2s;
   animation-iteration-count: 2; */
-  animation: ani 2s infinite;
+  animation: move 4s 2;
+  animation-fill-mode: forwards;
 }
 
-@keyframes ani {
-  10% {
-    background: green;
-    transform: translateX(100px);
+@keyframes move {
+  0% {
+    opacity: 1;
+    background: salmon;
+    transform: translateX(0px);
   }
-  20% {
-    background: red;
+  25% {
+    opacity: 0.25;
+    transform: translateX(30px);
+  }
+  50% {
+    opacity: 0.5;
     transform: translateX(-100px);
   }
   100% {
-    background: salmon;
-    transform: translateX(20px);
+    opacity: 0.75;
+    transform: translateX(0);
   }
 }
