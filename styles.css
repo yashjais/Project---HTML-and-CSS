@@ -1,22 +1,9 @@
-/* Child and Descendant - All the child are gonna descendant but all the descendant are not gonna be a 'direct' childs */
+/* first line and first letter */
 
-.header h1 {
-  color: purple;
+::first-letter {
+  font-size: 50px;
 }
 
-.header > h1 {
-  /* more specific and also a direct children */
-  color: crimson;
+::first-line {
+  font-weight: bolder;
 }
-
-/* descendants */
-div h1 {
-  color: blue;
-}
-
-div > h1 {
-  /* more specific and is direct children */
-  color: green;
-}
-
-/* this code written (last two selector) is not gonna override coz the specificity is low than of that written on top */
