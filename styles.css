@@ -1,39 +1,42 @@
-/* 
-  how the transition takes place
-  transition-timing-function 
-  transition: all 3s here 2s
-  ease: default
-  ease: slow start, fast, slow end
-  linear: same speed start to end
-  ease in: slow start
-  ease out: slow end
-  ease in out: slow start, fast, slow end
-*/
+/* Transition - 0 -100%
+Animation - 0 1% 2% .... 100% */
 
 div {
-  width: 100px;
-  height: 100px;
-  background: crimson;
+  width: 150px;
+  height: 200px;
+  color: white;
   margin: 10px;
-  transition: all 3s;
 }
 
-div:hover {
+.transition {
+  background: crimson;
+  transition: all 2s linear;
+}
+
+.transition:hover {
+  background: yellow;
   transform: translateX(100px);
 }
 
-.ease {
-  transition-timing-function: ease;
+.animation {
+  background: darkkhaki;
+  /* animation-name: ani;
+  animation-duration: 2s;
+  animation-iteration-count: 2; */
+  animation: ani 2s infinite;
 }
-.linear {
-  transition-timing-function: linear;
-}
-.ease-in {
-  transition-timing-function: ease-in;
-}
-.ease-out {
-  transition-timing-function: ease-out;
-}
-.ease-in-out {
-  transition-timing-function: ease-in-out;
+
+@keyframes ani {
+  10% {
+    background: green;
+    transform: translateX(100px);
+  }
+  20% {
+    background: red;
+    transform: translateX(-100px);
+  }
+  100% {
+    background: salmon;
+    transform: translateX(20px);
+  }
 }
