@@ -16,13 +16,16 @@ div:hover {
 
 .one {
   background-color: chocolate;
-  /* transition-property: background; */
-  transition-duration: 4s;
 }
 .two {
   background-color: coral;
-  transition-delay: 2s;
+  /* transition-delay: 2s; */
 }
 .three {
   background-color: crimson;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+}
+.three:hover {
+  border-radius: 50%;
 }
