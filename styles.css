@@ -10,9 +10,9 @@ div {
   display: inline-block;
 }
 
-div:hover {
+/* div:hover {
   background-color: darkolivegreen;
-}
+} */
 
 .one {
   background-color: chocolate;
@@ -23,9 +23,10 @@ div:hover {
 }
 .three {
   background-color: crimson;
-  transition-property: background, border-radius;
-  transition-duration: 4s, 2s;
+  /* transition: border-radius 5s 1s, background 3s 2s; */
+  transition: all 5s 1s;
 }
 .three:hover {
   border-radius: 50%;
+  background: blueviolet;
 }
