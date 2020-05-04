@@ -1,4 +1,4 @@
-/* scale */
+/* rotate */
 
 div {
   height: 200px;
@@ -8,13 +8,14 @@ div {
 
 .one {
   background-color: chocolate;
-  transform: scaleX(0.5);
+  /* transform: rotateZ(45deg); */
+  transform: rotate(45deg);
 }
 .two {
   background-color: coral;
-  transform: scaleY(0.5);
+  transform: rotateX(45deg);
 }
 .three {
   background-color: crimson;
-  transform: scale(1.5, 1.5);
+  transform: rotateY(45deg);
 }
