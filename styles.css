@@ -1,4 +1,4 @@
-/* rotate */
+/* skew */
 
 div {
   height: 200px;
@@ -8,14 +8,13 @@ div {
 
 .one {
   background-color: chocolate;
-  /* transform: rotateZ(45deg); */
-  transform: rotate(45deg);
+  transform: skew(20deg);
 }
 .two {
   background-color: coral;
-  transform: rotateX(45deg);
+  transform: skew(-20deg);
 }
 .three {
   background-color: crimson;
-  transform: rotateY(45deg);
+  transform: skew(20deg, 20deg);
 }
