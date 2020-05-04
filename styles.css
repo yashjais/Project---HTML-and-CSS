@@ -1,14 +1,17 @@
-/* Class Selectors */
-
-p:hover {
-  background-color: crimson;
-}
-
-.header:hover {
-  background-color: blue;
-  color: white;
-}
+/* Class Selectors - :link :visited :hover :active */
 
 a:hover {
-  text-decoration: none;
+  color: crimson;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:link {
+  color: blue;
 }
