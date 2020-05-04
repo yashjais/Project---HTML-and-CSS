@@ -1,17 +1,18 @@
-/* Class Selectors - :link :visited :hover :active */
+/* CSS Variables */
 
-a:hover {
-  color: crimson;
+:root {
+  background-color: chocolate;
+  font-size: 20px;
 }
 
-a:active {
-  color: green;
+h1 {
+  font-size: 3rem;
 }
 
-a:visited {
-  color: yellow;
+.absolute {
+  font-size: 20px;
 }
 
-a:link {
-  color: blue;
+.resonsive {
+  font-size: 1.5rem;
 }
