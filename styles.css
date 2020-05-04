@@ -1,22 +1,22 @@
-/* Basic Selectors */
+/* Child and Descendant - All the child are gonna descendant but all the descendant are not gonna be a 'direct' childs */
 
-* {
-  color: red;
+.header h1 {
+  color: purple;
 }
 
-#heading {
+.header > h1 {
+  /* more specific and also a direct children */
   color: crimson;
-  text-transform: uppercase;
-  font-size: 30px;
 }
 
-.heading {
+/* descendants */
+div h1 {
   color: blue;
-  text-transform: capitalize;
-  font-size: 20px;
 }
 
-p {
-  word-spacing: 5px;
-  letter-spacing: 10px;
+div > h1 {
+  /* more specific and is direct children */
+  color: green;
 }
+
+/* this code written (last two selector) is not gonna override coz the specificity is low than of that written on top */
