@@ -1,4 +1,4 @@
-/* transform */
+/* scale */
 
 div {
   height: 200px;
@@ -8,13 +8,13 @@ div {
 
 .one {
   background-color: chocolate;
-  transform: translate(20px, 30px);
+  transform: scaleX(0.5);
 }
 .two {
   background-color: coral;
-  transform: translate(-2rem);
+  transform: scaleY(0.5);
 }
 .three {
   background-color: crimson;
-  transform: translateX(50%);
+  transform: scale(1.5, 1.5);
 }
