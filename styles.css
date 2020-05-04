@@ -1,9 +1,14 @@
-/* first line and first letter */
+/* Class Selectors */
 
-::first-letter {
-  font-size: 50px;
+p:hover {
+  background-color: crimson;
 }
 
-::first-line {
-  font-weight: bolder;
+.header:hover {
+  background-color: blue;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
 }
