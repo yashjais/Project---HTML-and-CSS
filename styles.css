@@ -1,4 +1,8 @@
-/* skew */
+/* 
+  transition - change over time
+  transition property
+  transition duration
+ */
 
 div {
   height: 200px;
@@ -6,15 +10,19 @@ div {
   display: inline-block;
 }
 
+div:hover {
+  background-color: darkolivegreen;
+}
+
 .one {
   background-color: chocolate;
-  transform: skew(20deg);
+  /* transition-property: background; */
+  transition-duration: 4s;
 }
 .two {
   background-color: coral;
-  transform: skew(-20deg);
+  transition-delay: 2s;
 }
 .three {
   background-color: crimson;
-  transform: skew(20deg, 20deg);
 }
