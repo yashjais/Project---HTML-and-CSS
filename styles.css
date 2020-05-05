@@ -1,9 +1,22 @@
-/* font awesome  */
+/* 
+  text-shodow  {x-axis y-axis blur color}
+  box-shadow {same}
+*/
 
-.fa-home {
-  color: crimson;
+.heading {
+  text-shadow: 2px 2px 10px red;
 }
 
-.social {
-  font-size: 50px;
+.main {
+  width: 150px;
+  height: 150px;
+  color: white;
+  background: blue;
+  transition: all 0.5s linear;
+}
+
+.main:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
