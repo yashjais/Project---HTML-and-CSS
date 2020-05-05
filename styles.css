@@ -21,3 +21,23 @@ body {
   font-family: "Catamaran", sans-serif;
   line-height: 1.5;
 }
+
+/* helper/utility classes */
+/* globals */
+/* navbar */
+/* header */
+.header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/main-img.jpeg") center/cover no-repeat fixed;
+  position: relative;
+}
+/* banner */
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+/* end of header */
