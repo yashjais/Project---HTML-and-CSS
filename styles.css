@@ -1,38 +1,55 @@
-/* Transition - 0 -100%
-Animation - 0 1% 2% .... 100% */
+/* 
+  CSS Variables - aka custom properties - hold a value and reuse it 
+  --varName:value
+  scope
+  :root{} === global
+  element === local
+  any property
+
+.heading {
+  color: crimson;
+}
+
+.text {
+  color: chocolate;
+}
+
+.second-heading {
+  color: blue;
+}
+*/
+
+:root {
+  /* global - this variable can be accessed all along the document */
+  --primaryColor: red;
+  --secondaryColor: blue;
+  --transitionProperty: all 2s 0s ease;
+}
+
+.heading {
+  color: var(--primaryColor);
+}
+
+.text {
+  color: green;
+  transition: var(--transitionProperty);
+}
+
+.text:hover {
+  color: aqua;
+  transform: translateX(30px);
+}
 
 div {
-  width: 150px;
-  height: 200px;
-  color: white;
-  margin: 10px;
+  /* local variable */
+  --crimsonColor: crimson;
 }
 
-.animation {
-  background: crimson;
-  /* animation-name: ani;
-  animation-duration: 2s;
-  animation-iteration-count: 2; */
-  animation: move 4s 2;
-  animation-fill-mode: forwards;
+.main-text {
+  color: var(--crimsonColor);
 }
 
-@keyframes move {
-  0% {
-    opacity: 1;
-    background: salmon;
-    transform: translateX(0px);
-  }
-  25% {
-    opacity: 0.25;
-    transform: translateX(30px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: translateX(-100px);
-  }
-  100% {
-    opacity: 0.75;
-    transform: translateX(0);
-  }
+.second-heading {
+  /* didn't gonna work coz second heading is not in scope of div */
+  color: var(--crimsonColor);
 }
