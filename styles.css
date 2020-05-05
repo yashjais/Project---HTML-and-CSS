@@ -1,55 +1,9 @@
-/* 
-  CSS Variables - aka custom properties - hold a value and reuse it 
-  --varName:value
-  scope
-  :root{} === global
-  element === local
-  any property
+/* font awesome  */
 
-.heading {
+.fa-home {
   color: crimson;
 }
 
-.text {
-  color: chocolate;
-}
-
-.second-heading {
-  color: blue;
-}
-*/
-
-:root {
-  /* global - this variable can be accessed all along the document */
-  --primaryColor: red;
-  --secondaryColor: blue;
-  --transitionProperty: all 2s 0s ease;
-}
-
-.heading {
-  color: var(--primaryColor);
-}
-
-.text {
-  color: green;
-  transition: var(--transitionProperty);
-}
-
-.text:hover {
-  color: aqua;
-  transform: translateX(30px);
-}
-
-div {
-  /* local variable */
-  --crimsonColor: crimson;
-}
-
-.main-text {
-  color: var(--crimsonColor);
-}
-
-.second-heading {
-  /* didn't gonna work coz second heading is not in scope of div */
-  color: var(--crimsonColor);
+.social {
+  font-size: 50px;
 }
