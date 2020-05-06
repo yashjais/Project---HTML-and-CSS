@@ -36,6 +36,12 @@ a {
   color: var(--primaryColor);
 }
 /* clearfix */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* globals */
 /* navbar */
@@ -198,4 +204,16 @@ a {
   transform: translateY(-5px);
 }
 
+@media screen and (min-width: 576px) {
+  .skill {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skill {
+    width: 25%;
+  }
+}
 /* end of skills */
