@@ -23,6 +23,20 @@ body {
 }
 
 /* helper/utility classes */
+a {
+  text-decoration: none;
+}
+.text-white {
+  color: var(--mainWhite);
+}
+.text-center {
+  text-align: center;
+}
+.text-primary {
+  color: var(--primaryColor);
+}
+/* clearfix */
+
 /* globals */
 /* navbar */
 /* header */
