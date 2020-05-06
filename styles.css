@@ -170,4 +170,32 @@ a {
   transition: var(--mainTransition);
   display: inline-block;
 }
+
+.skill-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing);
+  margin-bottom: 1.5rem;
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+
+.skill-text {
+  max-width: 13rem;
+  margin: 0 auto;
+}
+
+.skill:hover {
+  background: var(--primaryColor);
+}
+
+.skill:hover .skill-title {
+  color: var(--mainWhite);
+}
+
+.skill:hover .skill-icon {
+  transform: translateY(-5px);
+}
+
 /* end of skills */
