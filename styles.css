@@ -35,6 +35,7 @@ a {
 .text-primary {
   color: var(--primaryColor);
 }
+
 /* clearfix */
 .clearfix::before,
 .clearfix::after {
@@ -44,6 +45,14 @@ a {
 }
 
 /* globals */
+.section-center {
+  padding: 4rem 0;
+  background: crimson;
+  width: 80vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 /* navbar */
 /* header */
 .header {
@@ -217,3 +226,28 @@ a {
   }
 }
 /* end of skills */
+
+/* about */
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+.about-picture-container {
+  background: var(--primaryColor);
+  border: 0.5rem solid var(--primaryColor);
+  border-radius: 1rem;
+  /* overflow */
+  overflow: hidden;
+}
+
+.about-picture {
+  width: 100%;
+  display: block;
+  transition: var(--mainTransition);
+}
+
+.about-picture-container:hover .about-picture {
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+/* end of about */
