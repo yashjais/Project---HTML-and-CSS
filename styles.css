@@ -347,3 +347,51 @@ a {
   }
 }
 /* end of products */
+
+/* contact */
+.contact {
+  background: var(--mainWhite);
+  padding-top: 2rem;
+}
+
+.contact-item {
+  /* padding: 1.2rem 0; */
+  margin-bottom: 3rem;
+}
+
+.contact-title {
+  font-family: var(--slantedText);
+  letter-spacing: calc(var(--letterSpacing) * 2);
+  color: var(--primaryColor);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  /* font-weight: light; */
+  /* padding: 0.8rem 0; */
+  margin-bottom: 0.5rem;
+}
+
+.contact-text {
+  text-transform: uppercase;
+  /* font-weight: light; */
+  /* font-size: 0.9rem; */
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--primaryColor);
+  outline: none;
+  margin: 2rem 0;
+  padding: 1.3rem 0;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.form-control::placeholder {
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing);
+  color: var(--primaryColor);
+}
+
+/* end of contact */
