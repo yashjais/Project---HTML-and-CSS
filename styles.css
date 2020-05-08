@@ -394,4 +394,15 @@ a {
   color: var(--primaryColor);
 }
 
+@media screen and (min-width: 992px) {
+  .contact-info,
+  .contact-form {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+  }
+  .contact-info {
+    padding-top: 5rem;
+  }
+}
 /* end of contact */
