@@ -66,6 +66,7 @@ a {
 /* navbutton */
 .nav-btn {
   position: fixed;
+  cursor: pointer;
   z-index: 1;
   color: var(--primaryColor);
   top: 0;
@@ -100,7 +101,11 @@ a {
   background: var(--mainGrey);
   transition: var(--mainTransition);
   /* transform */
-  transform: translate(100%);
+  transform: translate(-100%);
+}
+
+.showNav {
+  transform: translate(0);
 }
 
 .nav-close {
